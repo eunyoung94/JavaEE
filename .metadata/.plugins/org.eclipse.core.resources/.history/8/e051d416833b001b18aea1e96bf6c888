@@ -1,0 +1,10 @@
+package test;
+
+public class Dog {
+	String name="뽀미";
+
+	//생성자를 막는다 
+	private Dog() {
+		
+	}
+}	

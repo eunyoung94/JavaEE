@@ -1,0 +1,5 @@
+package mybatis.config;
+
+public class MybatisConfigManager {
+
+}

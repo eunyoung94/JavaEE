@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>web1215</display-name>
+	<!--서블릿은 클래스 이기에 브라우저의 주소 url에  그 이름을 이용하여 접속할 수 없다. 주로 html, jsp ,img 등만 가능하다..
+	따라서 해당 서블릿 클래스가 동장되도록 간접적으로 접근해야한다. 
+	그리기 위해서는 서블릿클래스와 주소와의 매핑작업이 필요하다. 
+	-->
+	<servlet>
+		<servlet-name>testTest</servlet-name>
+		<servlet-class>com.test.MyServlet</servlet-class>
+		<init-param>
+			<param-name>msg</param-name>
+			<param-value>this is my message</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>testServlet</servlet-name>
+		<url-pattern>/study</url-pattern>
+	</servlet-mapping>
+</web-app>

@@ -1,0 +1,5 @@
+package com.greeting;
+
+public class HelloServlet {
+
+}
