@@ -1,6 +1,6 @@
 <%@page import="java.io.IOException"%>
 <%@page import="java.io.File"%>
-<%@page import="common.FileManager"%>
+<%@page import="common.board.FileManager"%>
 <%@page import="com.oreilly.servlet.MultipartRequest"%>
 <%@page import="com.oreilly.servlet.multipart.FileRenamePolicy"%>
 <%@page contentType="text/html;charset=utf-8"%>

@@ -1,4 +1,4 @@
-<%@page import="common.FileManager"%>
+<%@page import="common.board.FileManager"%>
 <%@page import="org.apache.commons.fileupload.FileItem"%>
 <%@page import="java.util.List"%>
 <%@page import="java.io.File"%>

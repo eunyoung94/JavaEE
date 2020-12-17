@@ -22,6 +22,16 @@ public class PoolManager {
 	private PoolManager() {
 		try {
 			context = new InitialContext();// 검색 객체 생성
+/*
+ 고수는 아니지만.. 아는것만 답변드리자면 java:comp/env는 리소스 이름앞에 붙는 접두사정도로 생각하시면 됩니다. web.xml파일에 <resource-ref>엘리먼트를 설정해주죠. JDBC를 예를들면 
+<resource-ref> 
+<description>DB Connection</description> 
+<res-ref-name>jdbc/myhome</res-ref-name> 
+<res-type>javax.sql.DataSource</res-type> 
+<res-auth>Container</res-auth> 
+</resource-ref> 
+뭐 이런식이 될텐데 위의 jdbc/myhome라는 리소스이름을 lookup으로 찾을때 리소스 이름앞에 붙이는 접두사 라고 생각하시면 됩니다.
+ */
 			ds = (DataSource) context.lookup("java:comp/env/jdbc/myoracle");// 찾기 성공 and 풀반환
 		} catch (NamingException e) {
 			e.printStackTrace();

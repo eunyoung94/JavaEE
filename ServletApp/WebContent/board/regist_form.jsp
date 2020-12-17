@@ -40,40 +40,41 @@ input[type=button]:hover {
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
 $(function(){
-	var bt_regist=$("input[type='button']")[0];
+	var bt_regitst=$("input[type='button']")[0];
 	var bt_list=$("input[type='button']")[1];
 	
 	$(bt_regist).click(function(){
-		regist();			
+		regist();
 	});
 	$(bt_list).click(function(){
-			
+		
 	});
 	
 });
 function regist(){
-	$("form").attr({
+	$("form").attr({ 
 		enctype:"multipart/form-data",
-		action:"/board/regist", //서블릿에게 요청
+		action:"/board/regist", //web.xml에서 지정한 가상의 지정제목    서블릿에게 요청 
 		method:"post"
-	});			
+	});
 	$("form").submit();
+	
 }
 </script>
 </head>
 <body>
-	<h3>글등록 폼</h3>
+	<h3>글 등록폼</h3>
 	<div class="container">
 		<form>
-			<input type="text" name="title" placeholder="Your title..">
-			<input type="text" name="writer" placeholder="Your name.."> 
-			<textarea name="content" placeholder="Write something.." style="height: 200px"></textarea>
-			
+			<input type="text" name="title" placeholder="your title..">
+			<input type="text" name="writer" placeholder="your name..">
+			<textarea name="content" placeholder="Write something.." style="height:200px"></textarea>
+		
 			<input type="file" name="photo"><p>
-			<input type="button" value="글등록"> 
-			<input type="button" value="목록보기" onClick="location.href='list.jsp'">
+			<input type="button" value="글등록">
+			<input type ="button" value="목록보기" onClick="location.href='list.jsp'">
 		</form>
+	
 	</div>
-
 </body>
 </html>
