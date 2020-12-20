@@ -162,7 +162,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="MySite" path="/MySite" reloadable="true" source="org.eclipse.jst.jee.server:MySite"/><Context docBase="BoardApp2" path="/BoardApp2" reloadable="true" source="org.eclipse.jst.jee.server:BoardApp2"/><Context docBase="ServletApp" path="/ServletApp" reloadable="true" source="org.eclipse.jst.jee.server:ServletApp"/><Context docBase="webApp1216" path="/webApp1216" reloadable="true" source="org.eclipse.jst.jee.server:webApp1216"/><Context docBase="MVCFramwork" path="/" reloadable="true" source="org.eclipse.jst.jee.server:MVCFramwork"/></Host>
+      <Context docBase="MySite" path="/MySite" reloadable="true" source="org.eclipse.jst.jee.server:MySite"/><Context docBase="BoardApp2" path="/BoardApp2" reloadable="true" source="org.eclipse.jst.jee.server:BoardApp2"/><Context docBase="ServletApp" path="/ServletApp" reloadable="true" source="org.eclipse.jst.jee.server:ServletApp"/><Context docBase="webApp1216" path="/webApp1216" reloadable="true" source="org.eclipse.jst.jee.server:webApp1216"/><Context docBase="MVCFramwork" path="/MVCFramwork" reloadable="true" source="org.eclipse.jst.jee.server:MVCFramwork"/><Context docBase="PR1217" path="/PR1217" reloadable="true" source="org.eclipse.jst.jee.server:PR1217"/><Context docBase="Model2App" path="/" reloadable="true" source="org.eclipse.jst.jee.server:Model2App"/></Host>
    
    
    
