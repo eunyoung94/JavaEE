@@ -1,6 +1,0 @@
-<%@ page contentType="text/html; charset=utf-8" %>
-<%
-//넘겨받은 board_id를 이용하여 글 한건 삭제하기 
-
-
-%>

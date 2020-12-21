@@ -1,4 +1,4 @@
-<%@page import="com.model2.notice.domain.Notice"%>
+<%@page import="com.model2.domain.Notice"%>
 <%@page import="org.apache.ibatis.session.SqlSession"%>
 <%@page import="java.util.List"%>
 <%@page import="common.board.Pager"%>
