@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="SpringMVC1222"/>
+			<item value="SpringApp1"/>
 			<item value="PR1218"/>
 			<item value="Model2App"/>
 			<item value="webApp1216"/>
@@ -11,6 +13,8 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="SpringMVC1222"/>
+			<item value="SpringApp1"/>
 			<item value="PR1218"/>
 			<item value="Model2App"/>
 			<item value="webApp1216"/>
