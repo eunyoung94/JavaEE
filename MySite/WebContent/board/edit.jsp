@@ -1,8 +1,9 @@
+<%@page import="java.util.List"%>
 <%@page import="board.model.MybatisBoardDAO"%>
 <%@page import="common.file.FileManager"%>
 <%@page import="board.model.Board"%>
 <%@page import="org.apache.commons.fileupload.FileItem"%>
-<%@page import="java.util.List"%>
+
 <%@page import="java.io.File"%>
 <%@page import="org.apache.commons.fileupload.disk.DiskFileItemFactory"%>
 <%@page import="org.apache.commons.fileupload.servlet.ServletFileUpload"%>

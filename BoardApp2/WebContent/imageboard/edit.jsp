@@ -1,6 +1,6 @@
 <%@page import="board.model.ImageBoard"%>
 <%@page import="board.model.ImageBoardDAO"%>
-<%@page import="common.board.FileManager"%>
+<%@page import="common.FileManager"%>
 <%@page import="org.apache.commons.fileupload.FileItem"%>
 <%@page import="java.util.List"%>
 <%@page import="java.io.File"%>
@@ -9,7 +9,7 @@
 <%@ page contentType="text/html;charset=utf-8"%>
 <%@ include file="/inc/lib.jsp" %>
 <%!
-   String saveDir="D:/workspace/javaee_workspace/BoardApp/WebContent/data";
+   String saveDir="D:/workspace/javaee_workspace/BoardApp2/WebContent/data";
    int maxSize=3*1024*1024; //3M byte
    ImageBoardDAO dao=new ImageBoardDAO();
 %>

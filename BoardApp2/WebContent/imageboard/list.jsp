@@ -57,13 +57,12 @@ $(function(){
 	<%ImageBoard board=list.get(i); //각 칸에 들어간 vo 끄집어 내기%>
   <tr>
     <td>26</td>
-    <td><img src="/data/<%=board.getFilename() %>" width="50px"></td>
+    <td><img src="/data/<%=board.getFilename()%>" width="50px"></td>
     <td>
 		<a href="/imageboard/detail.jsp?board_id=<%=board.getBoard_id()%>"><%=board.getTitle()%></a>
 	</td>
     <td><%= board.getAuthor()%></td>
 	<td><%=board.getRegdate()%></td>
-	
 	<td><%=board.getHit()%></td>
   </tr>
 	<%}%>

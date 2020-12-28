@@ -73,12 +73,11 @@ button:hover {
 }
 </style>
 <script>
-//입력한 정보가 db에 존재하는지 여부 요청 즉, 로그인 요청
-function login() {
+//입력한 정보가 db에 존재하는지 여부 요청!! 즉 로그인 요청
+function login(){
 	form1.action="/admin/login.jsp";
 	form1.method="post";
 	form1.submit();
-	
 }
 </script>
 <body>
@@ -86,16 +85,14 @@ function login() {
 <form name="form1" style="border:1px solid #ccc">
   <div class="container">
     <h1>Web Admin Sign In</h1>
-    <p>Please fill in this form to create an account.</p>
     <hr>
-
     <label for="email"><b>ID</b></label>
-    <input type="text" placeholder="Enter your id" name="mid" required>
+    <input type="text" placeholder="Enter Your ID" name="mid" required>
 
     <label for="psw"><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="password" required>
 
-    <div class="clearfix" align="center">
+    <div class="clearfix">
       <button type="button" class="signupbtn" onClick="login()">Sign Up</button>
     </div>
   </div>

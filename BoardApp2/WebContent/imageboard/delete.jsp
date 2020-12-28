@@ -13,7 +13,7 @@
 	
 	//파일삭제(파일을 다룰 수 있는 클래스:  java.io.File)
 
-	File file = new File("D:/workspace/javaee_workspace/BoardApp/WebContent/data/"+filename);
+	File file = new File("D:/workspace/javaee_workspace/BoardApp2/WebContent/data"+filename);
 	if(file.delete()){
 		ImageBoardDAO dao = new ImageBoardDAO();
 		dao.delete(Integer.parseInt(board_id));//db삭제
